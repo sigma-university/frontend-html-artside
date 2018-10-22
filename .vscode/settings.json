@@ -1,4 +1,19 @@
 {
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.enable": true,
+	"stylelint.configOverrides": {
+		"fix": true
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.insertSpaces": false,
+	"files.eol": "\n",
+	"files.autoSaveDelay": 100,
 	"htmlhint.enable": true,
-	"files.autoSaveDelay": 100
+	"htmlhint.documentSelector": [
+		"html",
+		"htm"
+	]
 }
